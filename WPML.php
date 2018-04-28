@@ -2,10 +2,10 @@
 
 <?php if(ICL_LANGUAGE_CODE=='de'): ?>
 
-Deutscher Text
+	Deutscher Text
 
 <?php elseif(ICL_LANGUAGE_CODE=='en'): ?>
 
-Englischer Text
+	Englischer Text
 		
 <?php endif; ?>
