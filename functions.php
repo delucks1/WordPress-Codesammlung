@@ -46,3 +46,4 @@ function appthemes_custom_rss_feed( $output, $feed ) {
 add_action( 'feed_link', 'appthemes_custom_rss_feed', 10, 2 );
 add_filter( 'feed_links_show_comments_feed', '__return_false' ); // Comment feeds removed
 remove_action( 'wp_head', 'feed_links_extra', 3 ); // Extra feeds such as category feeds removed
+
