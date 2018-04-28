@@ -1,4 +1,4 @@
-//* Eine if else Funktionen zum Steuern von mehrsprachigen Inhalten im Theme
+//* Funktionen zum Steuern von mehrsprachigen Inhalten im Theme
 
 <?php if(ICL_LANGUAGE_CODE=='de'): ?>
 
