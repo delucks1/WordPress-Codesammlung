@@ -17,3 +17,9 @@
 <?php if(!is_front_page()) { ?>
   Inhalte für andere Seiten
 <?php } ?>
+
+//* Inhalte für die Blogübersicht hinzufügen
+
+<?php if(is_home() && !is_front_page() && !is_paged() ) : ?>
+  Inhalte für Blogübersicht
+<?php endif; ?>
