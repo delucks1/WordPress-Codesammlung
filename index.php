@@ -29,15 +29,10 @@
 
 
 //* In Blogübersicht für Sticky Posts extra das Beitragsbild darstellen
+//* In index.php vor <article> einfügen
 
 <?php if ( is_sticky()): ?>
 <a href="<?php echo get_permalink( $post->ID ); ?>">
-	<div style="
-				background-image: url(<?php echo get_the_post_thumbnail_url($post_id, 'thumbnail'); ?>);
-				width: 100%;
-				height: 100%;
-				background-size: cover;
-				background-position: center;			
-				"></div>
+<div style="background-image: url(<?php echo get_the_post_thumbnail_url($post_id, 'thumbnail'); ?>);width: 100%;height: 100%;background-size: cover;background-position: center;"></div>
 </a>
 <?php endif; ?>
