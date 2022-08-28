@@ -23,6 +23,11 @@
 //* Shortcode
 [dpc_breadcrumbs]
 
+/* --- Social Sharing --- */
+
+//* Shortcode
+[dpc_sharing] 
+
 /* --- Bewertungen --- */
 
 //* PHP-Code
